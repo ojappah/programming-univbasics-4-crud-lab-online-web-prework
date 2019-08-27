@@ -7,12 +7,13 @@ my_array = [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-my_array = ["wow", "I", "am", "really", "learning"]
-my_array.push("arrays!")  
+array = ["wow", "I", "am", "really", "learning"]
+array.push("arrays!")  
 end
 
 def add_element_to_start_of_array(array, element)
-array.unshift(0)  
+array = ["wow", "I", "am", "really", "learning"]
+array.unshift("wow")  
 end
 
 def remove_element_from_end_of_array(array)
